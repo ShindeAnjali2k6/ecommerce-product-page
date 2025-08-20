@@ -1,0 +1,101 @@
+/* General Page Style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+/* Product Section */
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+  background: white;
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.product img {
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.product-info h2 {
+  margin-top: 0;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #e63946;
+  margin: 0.5rem 0;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.features li {
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* Reviews */
+.reviews {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.reviews h2 {
+  margin-top: 0;
+}
+
+.review {
+  border-bottom: 1px solid #ddd;
+  padding: 0.8rem 0;
+}
+
+.review:last-child {
+  border-bottom: none;
+}
+
+/* Footer */
+footer {
+  background: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
