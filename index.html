@@ -3,29 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <title>E-Commerce Product Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to Our Store</h1>
+  <header>
+    <h1>Welcome to Our Store</h1>
+  </header>
 
-  <div class="product">
-    <h2>Wireless Headphones</h2>
-    <img src="https://via.placeholder.com/200" alt="Headphones">
-    <p><strong>Price:</strong> $99.99</p>
-    <p><strong>Features:</strong> Noise cancellation, 20hrs battery life, Bluetooth 5.0</p>
-    <p><strong>Description:</strong> Experience immersive sound quality with comfort.</p>
-  </div>
+  <main>
+    <section class="product">
+      <img src="https://via.placeholder.com/300" alt="Wireless Headphones">
+      <div class="product-info">
+        <h2>Wireless Headphones</h2>
+        <p class="price">$99.99</p>
+        <ul class="features">
+          <li>Noise cancellation</li>
+          <li>20 hrs battery life</li>
+          <li>Bluetooth 5.0</li>
+        </ul>
+        <p class="description">Experience immersive sound quality with comfort.</p>
+        <button>Add to Cart</button>
+      </div>
+    </section>
 
-  <div class="reviews">
-    <h2>Customer Reviews</h2>
-    <div>
-      <p><strong>Alice</strong> ⭐⭐⭐⭐☆<br>"Great sound and comfort!"</p>
-    </div>
-    <div>
-      <p><strong>Bob</strong> ⭐⭐⭐⭐⭐<br>"Battery life is amazing."</p>
-    </div>
-    <div>
-      <p><strong>Clara</strong> ⭐⭐⭐⭐☆<br>"Worth the price!"</p>
-    </div>
-  </div>
+    <section class="reviews">
+      <h2>Customer Reviews</h2>
+      <div class="review">
+        <p><strong>Alice</strong> ⭐⭐⭐⭐☆</p>
+        <p>"Great sound and comfort!"</p>
+      </div>
+      <div class="review">
+        <p><strong>Bob</strong> ⭐⭐⭐⭐⭐</p>
+        <p>"Battery life is amazing."</p>
+      </div>
+      <div class="review">
+        <p><strong>Clara</strong> ⭐⭐⭐⭐☆</p>
+        <p>"Worth the price!"</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My E-Commerce Store</p>
+  </footer>
 </body>
 </html>
